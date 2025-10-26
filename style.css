@@ -1,0 +1,411 @@
+/*==Styling the entire body==*/
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    overflow-x: hidden;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+/*==Styling navigation bar==*/
+nav {
+    background-color: rgb(28, 28, 39);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: fixed;
+    width: 100%;
+}
+
+/*==Stlying navigation links==*/
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 22px 0 22px -40px;
+}
+ /*==Style for navigation link==*/
+nav a{
+    color: white;
+    text-decoration: none;
+    font-size: large;
+    border: 1.5px solid rgb(56, 55, 55);
+    padding: 8px;
+    box-shadow: inset 0 -0.3px 0 white;
+}
+
+/*==Hovering over background color for links==*/
+nav a:hover {
+    background-color: rgb(56, 55, 55);
+}
+
+/*==Head section==*/
+.background1 {
+    height: 100vh;
+    background-image: url('https://mohkabir.github.io/oschallenge1/images/01.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    line-height: 0.4;
+    color: white;
+}   
+
+/*==H1 text for background1==*/
+.background1-text h1 {
+    font-size: 50px;
+    font-weight: lighter;
+    text-shadow: 0 2px 3px black, 0 2px 5px rgb(34, 12, 12);
+    initial-letter: 3px;
+}
+
+/*==P text for background1==*/
+.background1-text p {
+    font-size: 22px;
+    font-weight: bolder;
+    word-spacing: 1px;
+    color: white;
+}
+
+/*==Container1 section==*/
+.container1 {
+    padding: 45px 30px;
+}
+
+/*==Sub-section1==*/
+.sub-section1 {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    text-align: center;
+    margin-bottom: 23px;
+}
+
+/*==For cards in sub-section1==*/
+div.card1 {
+    width: 250px;
+    font-size: 12px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+    background-color: rgb(238, 234, 234);
+}
+
+/*==For cards contents==*/
+div.container1-1 {
+    padding: 1px 10px 10px 10px;
+}
+
+/*==Sub-section1-2==*/
+.sub-section1-2{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    text-align: center;
+}
+
+/*==For cards in sub-section1-2==*/
+div.card1-2 {
+    width: 500px;
+    font-size: 12px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+    background-color: rgb(238, 234, 234);
+}
+
+/*==Sub-section1-2==*/
+div.container1-2 {
+    padding: 1px 10px 10px 10px;
+}
+
+/*==Bootstrap text==*/
+.bootstrap {
+    color: rgb(36, 134, 36);
+}
+
+/*==Design text==*/
+.design {
+    color: rgb(70, 70, 185);
+}
+
+/*==The green button==*/
+.green {
+    background-color: rgb(36, 134, 36);
+    color: white;
+    cursor: pointer;
+    padding: 5px 18px;
+    border: none;
+    border-radius: 3px;
+    font-size: 12px;
+    margin-top: 8px;
+}
+
+/*==Hovering over the green button==*/
+.green:hover {
+    background-color: rgb(36, 134, 36, 0.6);
+}
+
+/*==The blue button==*/
+.details {
+    background-color: rgb(70, 70, 185);
+    color: white;
+    cursor: pointer;
+    padding: 5px 18px;
+    border: none;
+    border-radius: 3px;
+    font-size: 12px;
+    margin-top: 8px;
+}
+
+/*==Hovering over the blue button==*/
+.details:hover {
+    background-color: rgb(70, 70, 185, 0.6);
+}
+
+/*==The red button==*/
+.red {
+    background-color: rgb(94, 16, 16);
+    color: white;
+    cursor: pointer;
+    padding: 5px 18px;
+    border: none;
+    border-radius: 3px;
+    font-size: 12px;
+    margin-top: 8px;
+}
+
+/*==Hovering over the red button==*/
+.red:hover {
+    background-color: rgb(94, 16, 16, 0.6);
+}
+
+/*==The read more button==*/
+.more-info {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    padding: 5px 18px;
+    border: none;
+    border-radius: 3px;
+    font-size: 12px;
+    margin-top: 8px;
+}
+
+/*==Hovering over read more button==*/
+.more-info:hover {
+    background-color: rgb(238, 234, 234);
+}
+
+/*==The more details button==*/
+.explore {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    padding: 5px 18px;
+    border: none;
+    border-radius: 3px;
+    font-size: 12px;
+    margin-top: 8px;
+}
+
+/*==Hovering over more details button==*/
+.explore:hover {
+    background-color: rgb(238, 234, 234);
+}
+
+/*==Stying background2==*/
+.background2 {
+    height: 50vh;
+    background-image: url('https://mohkabir.github.io/oschallenge1/images/07.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    line-height: 1;
+    color: white;
+    padding: 13px;
+}
+
+/*==To style p background2==*/
+.background2 p {
+    font-size: 12px;
+    margin-top: -10px;
+}
+
+/*==Stlying container2==*/
+.container2 {
+    padding: 25px 10px
+}
+
+/*==To style sub-section2-1==*/
+.sub-section2-1 {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    text-align: center;
+}
+
+/*==To style div.card2-1==*/
+div.card2-1 {
+    width: 200px;
+    font-size: 12px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+    background-color: rgb(238, 234, 234);
+}
+
+/*==To style div.container2-1==*/
+div.container2-1 {
+    padding: 1px 10px 10px 10px;
+}
+
+/*==To style sub-section2-2==*/
+.sub-section2-2 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 25px;
+}
+
+/*==To style div.card2-2==*/
+div.card2-2 {
+    width: 700px;
+    font-size: 12px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+    background-color: rgb(238, 234, 234);
+}
+
+/*==Style div.container2-2==*/
+div.container2-2 {
+    padding: 1px 10px 10px 10px;
+}
+
+/*==Style background3==*/
+.background3 {
+    height: 100vh;
+    background-image: url('https://mohkabir.github.io/oschallenge1/images/13.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    padding: 13px;
+}
+
+/*==Background3 heading==*/
+.background3 h1 {
+    margin: 40px 0;
+}
+
+/*==Background3 paragraph==*/
+.background3 p {
+    background-color: rgba(255, 255, 255, 0.3);
+    color: black;
+    font-size: 12px;
+    padding: 10px 7px;
+    margin: 0px 40px 15px 40px;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+}
+
+
+/*==Form fields==*/
+form input, form textarea {
+  padding: 7px 250px 7px 7px;
+  border: none;
+  border-radius: 3px;
+  outline: none;
+  background: rgba(255, 255, 255, 0.5);
+  font-size: 8px;
+}
+
+/*==Form left side==*/
+.left-side-form {
+    display: grid;
+    justify-content: left;
+    gap: 15px;
+    margin-left: 42px;
+    margin-bottom: -74px;
+}
+
+/*==Button==*/
+.send-button {
+  background-color: rgba(0, 0, 0, 0.5);
+  border: 1px solid white;
+  color: white;
+  padding: 5px 12px;
+  border-radius: 5px;
+  font-weight: light;
+  transform:translate(-340px, 95px);
+}
+
+/*==Style form-textarea==*/
+form textarea {
+    margin-top: -55px;
+    margin-left: 355px;
+    width: 145px;
+    height: 150px;
+}
+
+/*==Styling footer==*/
+footer {
+    text-align: center;
+}
+
+/*==Styling footer heading==*/
+footer h2 {
+    margin-top: 25px;
+    font-style: italic;
+    font-weight: 1;
+    font-size: larger;
+}
+
+/*==Footer first paragraph==*/
+.base1 {
+    font-size: xx-small;
+    color: rgb(156, 154, 154);
+    margin-bottom: 20px;
+}
+
+/*==Styling horizontal rule==*/
+hr {
+    height: 3px;
+    width: 95%;
+    color: rgba(255, 255, 255, 0.10);
+}
+
+/*==2 last paragraphs==*/
+.base2 {
+    font-size: 9px;
+    line-height: 18px;
+    margin-bottom: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
